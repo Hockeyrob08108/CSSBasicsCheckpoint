@@ -1,6 +1,6 @@
 body
-  font-size: 14px;
 
+  font-size: 14px;
 
 nav {
 
@@ -11,7 +11,9 @@ nav {
 }
 
 section {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  /*Added larger top (and bottom) margin to stop overlap with nav*/
+  margin: 80px auto;
   width: 60%;
 }
 
