@@ -1,12 +1,13 @@
-body
+body {
 
   font-size: 14px;
+
+}
 
 nav {
 
   height: 100px;
-  margin-top: -10px;
-  position: fixed;
+  margin-top: 10px;
   width: 100%;
 }
 
