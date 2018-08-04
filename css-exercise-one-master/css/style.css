@@ -1,0 +1,48 @@
+body
+  font-size: 14px;
+
+
+nav {
+
+  height: 100px;
+  margin-top: -10px;
+  position: fixed;
+  width: 100%;
+}
+
+section {
+  margin: 0 auto;
+  width: 60%;
+}
+
+/* Header Information and moved yellow background color to h1 class for nav background*/
+
+h1 {
+  font-family: sans-serif;
+  font-size: 4em;
+  background-color:yellow;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+/*Code to style .example, .element, and .element1 classes in index.html as well as to align/pad h3 */
+
+.example, h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.element, .element1 {
+  background-color: green;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+/*code to change the background color for the last three boxes.  Created .element1 class in index.html and created appropriate
+css to match   */
+.element1 {
+  background-color: blue;
+}
